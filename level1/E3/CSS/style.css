@@ -32,7 +32,6 @@ nav {
 }
 
 nav > div {
-
     padding: 0.5em 1em;
 }
 
@@ -82,13 +81,11 @@ article {
 
     margin: 1em;
     padding: 1em;
-
 }
 
 .article-container {
     display: flex;
     column-gap: 1em;
-
 }
 
 .article-container > div {
@@ -124,7 +121,6 @@ aside > div {
 
     /* margin-bottom: .5em; */
     padding: .5em 0;
-
 }
 
 footer {
@@ -249,7 +245,6 @@ M O B I L E
         display: flex;
         flex-flow: column nowrap;
         column-gap: 0;
-    
     }
 
     .article-container > div {
@@ -260,5 +255,4 @@ M O B I L E
         
         background-color: rgb(167, 198, 223);
     }
-
 }
