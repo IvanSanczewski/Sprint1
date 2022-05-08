@@ -356,8 +356,6 @@ T A B L E T
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
-        
-        opacity: .5;
     }
 
     .titulo-menu {
@@ -501,8 +499,6 @@ M O B I L E
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-
-        opacity: .5;
     }
 
     .moto {
