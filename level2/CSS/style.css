@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 html {
     max-width: 1200px;
 
@@ -51,31 +56,36 @@ nav > div {
     justify-content: space-evenly;
 }
 
-.menu > div {
+.menu > a {
     opacity: .5;
 }
 
-.menu > div:nth-child(1):hover {
+.menu > a:nth-child(1):hover,
+.menu > a:nth-child(1):focus {
     color: red;
     opacity: 1;
 }
 
-.menu > div:nth-child(2):hover {
+.menu > a:nth-child(2):hover,
+.menu > a:nth-child(2):focus {
     color: rgb(255, 60, 60);
     opacity: 1;
 }
 
-.menu > div:nth-child(3):hover {
+.menu > a:nth-child(3):hover,
+.menu > a:nth-child(3):focus {
     color: rgb(255, 90, 90);
     opacity: 1;
 }
 
-.menu > div:nth-child(4):hover {
+.menu > a:nth-child(4):hover,
+.menu > a:nth-child(4):focus {
     color: rgb(255, 130, 30);
     opacity: 1;
 }
 
-.menu > div:nth-child(5):hover {
+.menu > a:nth-child(5):hover,
+.menu > a:nth-child(5):focus {
     color: rgb(255, 160, 60);
     opacity: 1;
 }
@@ -87,17 +97,19 @@ nav > div {
     justify-content: space-evenly;
 }
 
-.social > div {
+.social > a {
     opacity: .5;
 }
 
 
-.social > div:nth-child(1):hover {
+.social > a:nth-child(1):hover,
+.social > a:nth-child(1):focus {
     color: rgb(255, 190, 0);
     opacity: 1;
 }
 
-.social > div:nth-child(2):hover {
+.social > a:nth-child(2):hover,
+.social > a:nth-child(2):focus {
     color: rgb(255, 220, 90);
     opacity: 1;
 }
