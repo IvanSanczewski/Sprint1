@@ -61,6 +61,11 @@ nav > div {
     text-align: center;
 }
 
+.logo:hover {
+    transition: 250ms ease-in-out;
+    transform: scale(1.4);
+}
+
 .menu {
     flex: 6 1 0;
     
