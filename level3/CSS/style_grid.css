@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Noto+Sans:ital,wght@0,400;1,700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Noto+Sans:wght@0400;700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -287,6 +287,12 @@ aside {
     
     background-color: rgb(188, 188, 188);
 }
+
+aside > h4 {
+    margin: .5rem 0;
+
+    font-weight: 700;
+} 
 
 footer {
     grid-area: f;
