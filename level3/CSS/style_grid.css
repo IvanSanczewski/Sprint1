@@ -59,10 +59,10 @@ nav > div {
 .logo {
     flex: 1 1 0;
     text-align: center;
+    transition: 250ms ease-in-out;
 }
 
 .logo:hover {
-    transition: 250ms ease-in-out;
     transform: scale(1.4);
 }
 
