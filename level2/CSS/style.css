@@ -220,6 +220,8 @@ section > p {
 
 .last-text {
     text-align: center;
+    padding: 0 .5em;
+    margin: .5em;
 }
 
 aside {
@@ -307,11 +309,6 @@ T A B L E T
         display: flex;
         flex-flow: column nowrap;
         column-gap: .5em;
-    }
-
-    .last-text {
-        text-align: center;
-        padding: 1em;
     }
 
     aside {
