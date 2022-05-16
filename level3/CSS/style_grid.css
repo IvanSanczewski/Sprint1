@@ -479,7 +479,7 @@ M O B I L E
     
         height: 220px;
         
-        background-image: url('/level3/MEDIA/header.jpg');   
+        background-image: url('../MEDIA/header.jpg');   
         background-position: 50% 50.2% ; 
     }
 

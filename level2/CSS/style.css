@@ -28,7 +28,7 @@ header {
 
     margin-bottom: .5em;
     
-    background-image: url('/level2/MEDIA/header.jpg');   
+    background-image: url('../MEDIA/header.jpg');   
     background-position: 50% 53.2% ; 
 }
 
@@ -267,7 +267,7 @@ T A B L E T
     
         height: 300px;
         
-        background-image: url('/level2/MEDIA/header.jpg');   
+        background-image: url('../MEDIA/header.jpg');   
         background-position: 50% 53.2% ; 
     }
     
@@ -337,7 +337,7 @@ M O B I L E
     
         height: 230px;
         
-        background-image: url('/level2/MEDIA/header.jpg');   
+        background-image: url('../MEDIA/header.jpg');
         background-position: 50% 50.2% ; 
     }
 
